@@ -64,7 +64,7 @@ li a {
     border-right: 160px solid #dddddd;
 }
 
-img {
+.selfie {
     width: 25%;
     height: 200px;
     float: left;
@@ -146,4 +146,84 @@ input[type=text], select, textarea {
 
 input[type=submit]:hover {
     background-color: #45a049;
+}
+
+.stuff {
+    position: relative;
+    clear: both;
+    width: 100%;
+    max-width: 960px;
+    margin: 50px auto;
+    margin-bottom: -20px;
+    align-items: center;
+    background: #ffffff;
+    border-color: #dddddd;
+    padding:10px;
+}
+
+.word {
+    position: relative;
+    width: 200px;
+    margin: 20px 0;
+    overflow: auto;
+}
+
+.work h3 {
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.work1 {
+    position: absolute;
+    /* border: 1px solid grey; */
+    top: -30px;
+    left: 2%;
+    margin:10px;
+    width: 25%;
+    height: 200px;
+}
+
+.work2 {
+    position: absolute;
+    /* border: 1px solid grey; */
+    top: -30px;
+    left: 30%;
+    margin:10px;
+    width: 25%;
+    height: 200px;
+}
+
+.work3 {
+    position: absolute;
+    /* border: 1px solid grey; */
+    top: 220px;
+    left: 2%;
+    margin:10px;
+    width: 25%;
+    height: 200px;
+}
+
+.work4 {
+    position: absolute;
+    /* border: 1px solid grey; */
+    top: 220px;
+    left: 30%;
+    margin:10px;
+    width: 25%;
+    height: 200px;
+}
+
+.work5 {
+    position: absolute;
+    /* border: 1px solid grey; */
+    top: 470px;
+    left: 2%;
+    margin:10px;
+    width: 25%;
+    height: 200px;
 }
