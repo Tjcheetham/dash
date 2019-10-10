@@ -1,17 +1,121 @@
+.nav-header {
+    position: fixed;
+    width: 100%;
+    margin: 0 0 30px;
+    height: 70px;
+    overflow:auto;
+    z-index: 1;
+}
+.container {
+    width: 100%;
+    max-width: 978px;
+    margin: 0 auto;
+    background-color: green;
+    align-items: center;
+    clear: both;
+}
+
+.name {
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color:white;
+    padding:20px;
+    font-size: 25px;
+}
+
+ul {
+float: right;
+margin-top: 25px;
+
+}
+
+li {
+display: inline-block;
+text-decoration: none;
+
+
+}
+li a {
+    text-decoration: none; 
+    padding: 5px;
+    color: #777777;
+}
+
+.wrap {
+    position: relative;
+    clear: both;
+    width: 100%;
+    max-width: 960px;
+    margin: 50px auto;
+    margin-bottom: -20px;
+    align-items: center;
+    background: #ffffff;
+    border-color: #dddddd;
+    padding:10px;
+    border-style: solid;
+    border-width: 1px;
+    border-top: 20px solid #dddddd;
+    border-bottom: 200px solid #dddddd;
+    border-left: 160px solid #dddddd;
+    border-right: 160px solid #dddddd;
+}
+
+img {
+    width: 25%;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p {
+    width: 95%;
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+header {
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-color: #cccccc;
+}
+
+
+
 .clearfix::after {
     content: " ";
     display: block;
     clear: both;
-
-img {
-    width: 33%;
 }
 
-p {
-    width: 67%;
-    font-size: 24px;
+.pages {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    color: #4aaaa5;
+
 }
 
-#nav-menu {
-    border-inline-style: block;
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    text-align: center;
+    background: #666666;
+    padding: 20px;
+
+
 }
